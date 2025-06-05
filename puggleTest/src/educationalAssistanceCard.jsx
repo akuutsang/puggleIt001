@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 export default function EducationalAssistanceCard() {
   return (
     <div className="min-h-[400px] flex justify-center items-center p-4">
-      <div className="relative sm:w-[600px] w-[350px] sm:h-[400] h-[300px] rounded-[20px] overflow-hidden border-t border-l  border-[#dbdbdf]">
+      <div className="relative sm:w-[600px] w-[350px]  sm:h-[400px] h-[300px] rounded-[20px] overflow-hidden border-t border-l  border-[#dbdbdf]">
         <svg
           className="absolute inset-0 w-full h-full z-0"
           viewBox="0 0 600 400"
@@ -60,7 +60,7 @@ export default function EducationalAssistanceCard() {
         </div>
 
         <div className="absolute  flex flex-col justify-center sm:p-12 p-3 ">
-          <h1 className="text-gray-800 text-2xl sm:text-4xl text-left font-bold mb-8 leading-tight flex justify-items-start ">
+          <h1 className="text-gray-800 text-2xl sm:text-3xl text-left font-bold mb-8 leading-tight flex justify-items-start ">
             Educational Assistance
           </h1>
 

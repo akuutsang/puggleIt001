@@ -8,7 +8,7 @@ export default function FamilySupportCard() {
   return (
     <>
       <div className="min-h-[400px] flex justify-center items-center bg-gray-200 p-4 ">
-        <div className="relative sm:w-[600px] w-[350px] sm:h[400px] h-[300px]  rounded-[20px] shadow-lg overflow-hidden">
+        <div className="relative sm:w-[600px] w-[350px] sm:h-[400px] h-[300px] rounded-[20px] shadow-lg overflow-hidden">
           <svg
             className="absolute inset-0 w-full h-full z-0"
             viewBox="0 0 600 400"
@@ -51,7 +51,7 @@ export default function FamilySupportCard() {
             </div>
           </div>
           <div className="absolute inset-0 flex flex-col justify-center sm:p-12 p-3">
-            <h1 className="text-white text-3xl sm:text-3xl font-semibold mb-8 leading-tight flex justify-items-start w-[400px]">
+            <h1 className="text-white text-2xl sm:text-3xl font-semibold mb-8 leading-tight flex justify-items-start ">
               Family Support
             </h1>
 
