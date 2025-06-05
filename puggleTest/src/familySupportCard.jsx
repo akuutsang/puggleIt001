@@ -9,7 +9,6 @@ export default function FamilySupportCard() {
     <>
       <div className="min-h-screen flex justify-center items-center bg-gray-200 p-4">
         <div className="relative w-[600px] h-[400px] rounded-[20px] shadow-lg overflow-hidden">
-          {/* SVG Masked Background Image */}
           <svg
             className="absolute inset-0 w-full h-full z-0"
             viewBox="0 0 600 400"
@@ -47,21 +46,21 @@ export default function FamilySupportCard() {
               <img
                 src={logo}
                 alt="Logo"
-                className=" w-[100px] h-[90px] mb-6 object-fit "
+                className="w-[60px] h-[85px] sm:w-[100px] sm:h-[90px] mb-6 object-fit  "
               />
             </div>
           </div>
           <div className="absolute inset-0 flex flex-col justify-center p-12">
-            <h1 className="text-white text-5xl font-bold mb-8 leading-tight flex justify-items-start w-[400px]">
+            <h1 className="text-white text-3xl sm:text-5xl font-bold mb-8 leading-tight flex justify-items-start w-[400px]">
               Family Support
             </h1>
 
-            <p className="text-white text-xl mb-12 leading-relaxed text-left font-light  ">
+            <p className="text-white text-s sm:text-xl mb-12 leading-relaxed text-left font-light  ">
               We offer counseling and guidance to families, <br /> equipping
               them with strategies to foster growth <br /> and resilience.
             </p>
 
-            <button className="bg-orange-400 hover:bg-orange-500 transition-colors duration-200 text-white font-semibold py-2 px-8 rounded-lg flex items-center justify-center gap-3 w-[250px] text-lg">
+            <button className="bg-orange-400 hover:bg-orange-500 transition-colors duration-200 text-white font-semibold py-2 px-8 rounded-lg flex items-center justify-center gap-3 w-[250px] text-s sm:text-lg">
               Read more
               <ArrowUpRight className="w-5 h-5" />
             </button>
