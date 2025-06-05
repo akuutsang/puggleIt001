@@ -51,7 +51,7 @@ export default function EducationalAssistanceCard() {
         {/* Text and Button */}
         <div className="absolute inset-0 flex flex-col justify-center p-12">
           <h1 className="text-gray-600 text-3xl sm:text-5xl font-bold mb-8 leading-tight flex justify-items-start w-[400px]">
-            Family Support
+            Educational Assistance
           </h1>
 
           <p className="text-gray-500 text-s sm:text-xl mb-12 leading-relaxed text-left font-light  ">
